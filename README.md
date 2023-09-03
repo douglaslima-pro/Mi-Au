@@ -52,4 +52,4 @@ Depois de executar todas as etapas, o projeto deve ser aberto no navegador **Goo
 > [!IMPORTANT]
 > Caso apareça o erro **NOT FOUND** provavelmente o nome da pasta é diferente do que está na URL! Ex.: *localhost/douglas*
 
-[^1]: O site só é compatível com o Google Chrome!
+[^1]: O site só é compatível com o navegador Google Chrome!

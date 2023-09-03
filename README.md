@@ -50,6 +50,8 @@ O projeto foi desenvolvido utilizando o padrão de arquitetura [MVC](https://www
 Depois de executar todas as etapas, o projeto deve ser aberto no navegador **Google Chrome**[^1] com a URL *localhost/Mi-Au-main*.
 
 > [!IMPORTANT]
-> Caso apareça o erro **NOT FOUND** provavelmente o nome da pasta é diferente do que está na URL! Ex.: *localhost/douglas*
+> Caso apareça o erro **NOT FOUND** provavelmente o nome da pasta é diferente do que está na URL!
+>
+>  Ex.: *localhost/douglas*
 
 [^1]: O site só é compatível com o navegador Google Chrome!

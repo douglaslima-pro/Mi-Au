@@ -8,6 +8,8 @@ O projeto foi desenvolvido em grupo:
 
 <img width="650" src="https://raw.githubusercontent.com/douglaslima-pro/Mi-Au/main/documentacao/Prints/home_page_desktop.png">
 
+<br>
+
 ## 🔧 Ferramentas e Linguagens
 A **IDE** escolhida foi o [Visual Studio Code](https://code.visualstudio.com/), pois é fácil de utilizar e também não exige muito da máquina. Também foram utilizados programas como o [brModelo](https://sourceforge.net/projects/brmodelo/), para modelagem de dados, e o 
 [Astah UML](https://astah.net/downloads/), para criação de diagramas.
@@ -17,6 +19,8 @@ A **IDE** escolhida foi o [Visual Studio Code](https://code.visualstudio.com/), 
 - Toda a parte lógica do site foi feita em *PHP*, além da conexão com o banco de dados MySQL;
 
 O projeto foi desenvolvido utilizando o padrão de arquitetura [MVC](https://www.devmedia.com.br/introducao-ao-padrao-mvc/29308) (Model-View-Controller), o que permite separar a aplicação em três camadas (modelo, visão e controle) e, além disso, facilita a manutenção do código.
+
+<br>
 
 ## ❔ Como abrir
 > [!NOTE]

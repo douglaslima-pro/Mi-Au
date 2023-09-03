@@ -26,13 +26,9 @@ O projeto foi desenvolvido utilizando o padrão de arquitetura [MVC](https://www
 
     ![Alt text](images/readme_comoabrir/img-1.png)
 
-<br>
-
 2. Depois de extrair, deve-se **colar** a pasta do projeto dentro da pasta *C:\xampp\htdocs*.
 
     ![Alt text](images/readme_comoabrir/img-2.png)
-
-<br>
 
 3. Agora é necessário **abrir** o XAMPP e dar start nos serviços *Apache* e *MySQL*.
 

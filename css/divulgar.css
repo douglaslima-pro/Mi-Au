@@ -1,0 +1,160 @@
+.flex > section{
+    justify-content:center;
+    padding-bottom:50px;
+    height:auto;
+}
+nav ul li #divulgar{
+    background-image:linear-gradient(to top,#9aa1d3,#e5e6f3);
+}
+.conteudo-central form{
+    background-color:white;
+    border-radius:20px;
+    padding:20px;
+    margin:auto;
+    width:99%;
+    max-width:600px;
+    display:none;
+}
+#cadastro-animal h2{
+    font-size:25px;
+    float:right;
+    margin:0;
+    cursor:pointer;
+}
+#cadastro-animal h2:hover{
+    opacity:0.9;
+}
+.novo-animal{
+    background-color:#424874;
+    border:none;
+    border-top:1px solid black;
+    outline:none;
+    padding:10px;
+    color:white;
+    height:auto;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    left:0;
+    cursor:pointer;
+}
+.novo-animal:hover{
+    background-color:rgb(80, 84, 114);
+}
+form h3{
+    text-align:center;
+}
+.cachorro-gato{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    padding-bottom:10px;
+    border-bottom:1px solid;
+    margin-bottom:10px;
+}
+.cachorro-gato > div{
+    background-color:#4248741f;
+    border:1px solid;
+    border-radius:10px;
+    padding:10px;
+    display:flex;
+    gap:10px;
+    cursor:pointer;
+}
+.cachorro-gato img{
+    background-color:#424874;
+    border:1px solid white;
+    outline:#424874 solid 2px;
+    border-radius:20px;
+    padding:5px;
+    width:50px;
+    height:50px;
+}
+.cachorro-gato > div:hover img{
+    opacity:0.9;
+}
+label{
+    margin-top:10px;
+    font-weight:bold;
+    display:block;
+}
+input,select,textarea{
+    background-color:#4248741f;
+    border-radius:10px;
+    margin:10px 0;
+    width:100%;
+}
+textarea{
+    outline:none;
+    resize:none;
+}
+#preview-foto{
+    border:1px solid;
+    cursor:pointer;
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    flex:unset;
+    transition:0.5s;
+}
+#preview-foto:hover{
+    opacity:0.9;
+}
+#animais-cadastrados{
+    background-color:white;
+    border-radius:20px;
+    padding:20px;
+    height:auto;
+}
+#animais-cadastrados > h3{
+    text-align:center;
+    border-bottom:1px solid;
+    padding-bottom:10px;
+    margin-bottom:20px;
+    cursor:default;
+}
+.animal-cadastrado{
+    background-color:#424874;
+    border:1px solid white;
+    outline:black solid 1px;
+    border-radius:20px;
+    padding:10px;
+    display:flex;
+    margin:0 auto 20px auto;
+    gap:10px;
+}
+.animal-cadastrado img{
+    border-radius:10px;
+    width:200px;
+    height:200px;
+}
+.animal-cadastrado > div{
+    background-color:white;
+    border-radius:10px;
+    max-height:200px;
+    width:200px;
+    padding:10px;
+    overflow:hidden;
+}
+.animal-cadastrado > div img{
+    background-color:#424874;
+    border:1px solid white;
+    outline:black solid 1px;
+    border-radius:2px;
+    padding:2px;
+    height:25px;
+    width:25px;
+    float:right;
+    cursor:pointer;
+}
+.animal-cadastrado > div h3{
+    border-bottom:1px solid;
+    margin:10px 0 10px 0;
+    overflow:hidden;
+}
+.animal-cadastrado > div h3:hover{
+    opacity:0.9;
+}
+.animal-cadastrado > div *{
+    cursor:default;
+}

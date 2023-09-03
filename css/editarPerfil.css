@@ -1,0 +1,75 @@
+.flex > section form{
+    background-color:white;
+    border-radius:20px;
+    padding:20px;
+    max-width:700px;
+    margin:auto;
+}
+#preview-foto{
+    border:1px solid;
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    cursor:pointer;
+    flex:unset;
+    object-fit:cover;
+    object-position:center;
+    margin-top:20px;
+}
+#preview-foto:hover{
+    opacity:0.9;
+}
+.nome-sobrenome{
+    display:flex;
+    flex-direction:column;
+    min-width:200px;
+}
+#clean-img{
+    background-color:rgba(0, 0, 0, 0.8);
+    border:1px solid white;
+    border-radius:50%;
+    position:absolute;
+    transform:translate(550%,0%);
+    font-size:20px;
+    color:white;
+    padding:2px 5px;
+    cursor:pointer;
+}
+#clean-img:hover{
+    opacity:0.9;
+}
+input,select{
+    background-color:#F4EEFF;
+}
+aside section form{
+    background-color:#F4EEFF;
+    box-shadow:1px 1px 8px black;
+    border-radius:10px;
+    max-width:500px;
+    min-width:auto;
+    margin:auto;
+    margin-bottom:5%;
+    display:block;
+    padding:20px;
+}
+form table{
+    width:100%;
+}
+aside section form h3{
+    border-bottom:1px solid;
+    margin-bottom:10px;
+}
+.submit-div{
+    background-color:#424874;
+    color:white;
+    cursor:pointer;
+    text-align:center;
+    border:1px solid #424874;
+    border-radius:5px;
+    margin:10px 0;
+    padding:5px;
+    font-size:14px;
+}
+.submit-div:hover{
+    background-color:#424874d0;
+}

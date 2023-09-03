@@ -1,0 +1,175 @@
+form h3{
+    padding-bottom:5px;
+    border-bottom:1px solid;
+    margin:10px 0;
+}
+input[type="submit"]{
+    background-color:transparent;
+    border:1px solid white;
+    transition:background 0.6s;
+}
+input[type="submit"]:hover{
+    background-color:white;
+    color:rgba(14, 17, 38);
+}
+form img{
+    background-color:white;
+    border-radius:10px;
+    width:100%;
+    height:200px;
+    cursor:pointer;
+}
+input,select,textarea{
+    background-color:rgba(255, 255, 255, 0.9);
+    border-radius:10px;
+    outline:none;
+    resize:none;
+    padding:5px;
+    width:100%;
+}
+textarea{
+    resize:vertical;
+}
+.grid{
+    background-image:linear-gradient(45deg,rgb(238, 238, 238),white);
+    border-radius:20px;
+    padding:20px 10px;
+    margin:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+.grid article{
+    background-image:linear-gradient(to top,rgb(228, 228, 228),transparent);
+    border-left:1px solid;
+    width:200px;
+    height:auto;
+    overflow:hidden;
+    margin-bottom:20px;
+    padding-left:10px;
+}
+.grid article img{
+    border:1px solid #5a5f85;
+    border-radius:20px;
+    width:100%;
+    height:200px;
+}
+.grid article a{
+    text-align:center;
+    padding:10px 0;
+    margin:0;
+    width:100%;
+    color:#424874;
+    font-weight:bold;
+    font-size:15px;
+    display:inline-block;
+    transition:background 0.3s;
+}
+.grid article a:hover{
+    background-color:rgb(219, 219, 219);
+}
+.ong-resumo .ong-descricao{
+    height:100px;
+    padding:10px;
+    margin:0;
+    overflow:hidden;
+}
+h3,h2,p{
+    cursor:default;
+}
+h2{
+    background-color:rgba(14, 17, 38, 0.8);
+    color:white;
+    text-align:center;
+    padding:15px 0;
+    margin:0;
+}
+.inputs-alinhados{
+    border:none;
+}
+.viewer-lateral .pub-ong{
+    background-color:#424874;
+    border:1px solid #424874;
+    text-align:center;
+    color:white;
+    width:100%;
+    margin-bottom:10px;
+    display:block;
+}
+.viewer-lateral .pub-ong:hover{
+    background-color:#535884;
+}
+.viewer-lateral::-webkit-scrollbar{
+    display:block;
+}
+
+/*Deletar ONG*/
+.deletar-ong,.pub-ong{
+    background-color:#8E3737;
+    border:1px solid #424874;
+    border-radius:10px;
+    width:100%;
+    padding:10px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+}
+.deletar-ong:hover{
+    opacity:0.8;
+}
+.deletar-ong-confirm{
+    background-color:rgba(0, 0, 0, 0.9);
+    border-radius:10px;
+    color:white;
+    padding:0px 20px;
+    box-shadow:2px 2px 5px black;
+    width:300px;
+    height: 0px;
+    display:block;
+    visibility: hidden;
+    flex-direction:column;
+    position:absolute;
+    top:5px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:999;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+.deletar-ong-confirm h3{
+    padding-bottom:5px;
+    border-bottom:1px solid;
+    margin-bottom:10px;
+}
+.deletar-ong-confirm > div{
+    display:flex;
+    gap:10px;
+}
+.optionSim input[type="submit"]{
+    background-color:rgba(255,0,0,0.9);
+    width:100%;
+    height:100%;
+    margin:0;
+}
+.deletar-ong-confirm > div button:hover,.optionSim input[type="submit"]:hover{
+    opacity:0.9;
+}
+.optionSim{
+    flex:1;
+}
+.deletar-ong-confirm > div button{
+    text-align:center;
+    background-color:#424874;
+    border:1px solid black;
+    border-radius:10px;
+    color:white;
+    outline:none;
+    padding:10px;
+    flex:1;
+    cursor:pointer;
+}
+.active{
+    visibility: visible;
+    height: 127px;
+    padding:20px;
+}
